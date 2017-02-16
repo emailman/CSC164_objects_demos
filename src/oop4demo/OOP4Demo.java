@@ -17,8 +17,6 @@ public class OOP4Demo {
 
         Pet pet4 = new Cat("Fluffy");
         System.out.println(pet4);
-
-        System.out.println();
     }
 }
 
@@ -65,6 +63,6 @@ class Greyhound extends Dog {
     Greyhound (String arg) {
         super.setName(arg);
         System.out.println
-                ("Greyhounds will need a lot of exercise");
+                ("Greyhounds need a lot of exercise");
     }
 }
